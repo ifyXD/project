@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+*{
+margin: 0;
+padding: 0;
+border: none;
+outline: none;
+box-sizing: border-box;
+box-sizing:border-box;
+font-family: "Poppins", sans-serif;
+}
+.main {
+    height: 100%;
+    position: fixed;
+    list-style: none;
+    padding: 0;
+    overflow-y: auto; /* Add this line for vertical scrolling */
+}
+
+.main li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.main li:hover{
+    background: #4c4c4c
+}
+
+.main a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.main a li {
+    font-size: 1.2rem;
+}
+.main a span{
+
+    overflow: hidden;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #c7fabd;
+    border-radius: 10px;
+    padding: 1px 2rem;
+    margin: 1rem;
+    
+}
+.main-content{
+    position: relative;
+    background-color: #fffafa;
+    width: 100%;
+    padding: 1rem;
+}
+
+.main--title{
+    color:rgba(113, 99,186,255);
+    padding: 10x;
+    font-size: 15px
+}
+.card--container{
+
+    background:  #4ec630;
+    padding: 1px;;
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.card:hover {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card--blue {
+    background-color: #007bff;
+}
+
+.card--green {
+    background-color: #28a745;
+}
+
+.card--orange {
+    background-color: #fd7e14;
+}
+
+
+
+/* Job Request */
+.card--container1{
+
+    background:  #29c509;
+    padding:15px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.card:hover {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card--blue {
+    background-color: #007bff;
+}
+
+.card--green {
+    background-color: #28a745;
+}
+
+.card--orange {
+    background-color: #fd7e14;
+}
+
+
